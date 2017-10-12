@@ -65,6 +65,7 @@ void countdown_pomodoro(int argc, char* argv[]){
             this_thread::sleep_for(SECOND); //else sleep for second
         }
     }
+    //from somewhere on stack overflow
     notify_init("Pomodoro");
     NotifyNotification* n = notify_notification_new ("Pomodoro", 
         "++++++++++++FINISHED++++++++++++",
