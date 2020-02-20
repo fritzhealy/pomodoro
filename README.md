@@ -9,15 +9,14 @@ This system should notify you for all your increments
 as well as count down your remaining time.
 
 ## INSTALLATION
-***
 Only tested on linux (ubuntu 16.04)
 you will need libnotify-dev from package manager
 compiled on my system with:  
 ``
 g++ -o pomodoro -std=c++14 pomodoro.cpp `pkg-config --cflags --libs libnotify`
 ``
-### USAGE
-***
+
+## USAGE
 when running the cursor won't show
 
 - pomodoro start -- runs 25 minute pomodoro timer
