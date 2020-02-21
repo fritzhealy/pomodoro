@@ -26,3 +26,7 @@ when running the cursor won't show
 - type pause + enter to pause pomodoro (although you shouldn't)
 - type resume + enter to resume pomodoro
 
+## License
+Some of the code used here (marked in code) was taken from various stack overflow soures. 
+
+This code has been released under the MIT License.
